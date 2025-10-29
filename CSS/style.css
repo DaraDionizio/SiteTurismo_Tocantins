@@ -1,0 +1,24 @@
+.nav-top {
+    background-color: rgb(47, 47, 114) !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.d-block {
+    max-height: 70vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cont-1 {
+    background-color: rgb(47, 47, 114) !important;
+    text-align: center;
+    color: white;
+}
+
+.fundo-sobreposicao {
+    background-color: #55555583;
+
+}
