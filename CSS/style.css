@@ -1,9 +1,14 @@
+.logo{
+    height: 7rem;
+    margin-left: 3rem;
+}
 .nav-top {
     background-color: rgb(47, 47, 114) !important;
 }
 
 .nav-link {
     color: white;
+    margin-top: 2rem;
 }
 
 .d-block {
@@ -21,4 +26,42 @@
 .fundo-sobreposicao {
     background-color: #55555583;
 
+}
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+.card-img-top{
+    height: 12rem;
+}
+
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+.lista-contatos{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.sec-contato{
+    background-color: white;
+}
+.lista-contatos--fundo{
+    background-color: white;
+}
+.li-contatos img{
+    height: 3rem;
+    width: 3rem;
+}
+footer{
+    text-align: center;
+    color: grey;
 }
