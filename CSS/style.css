@@ -1,7 +1,8 @@
-.logo{
+.logo {
     height: 7rem;
     margin-left: 3rem;
 }
+
 .nav-top {
     background-color: rgb(47, 47, 114) !important;
 }
@@ -27,41 +28,75 @@
     background-color: #55555583;
 
 }
-.sec-pacotes{
+
+.sec-pacotes {
     margin-left: 10% !important;
     margin-right: 10% !important;
     justify-content: center !important;
     margin: 1% !important;
 }
-.card{
+
+.card {
     padding: 1% !important;
     margin: 0% 1% 1% !important;
 }
-.card-img-top{
+
+.card-img-top {
     height: 12rem;
 }
 
-.sec-contato{
+.sec-contato {
     margin-bottom: 10% !important;
     margin-left: 10% !important;
     margin-right: 10% !important;
 }
-.lista-contatos{
+
+.lista-contatos {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-.sec-contato{
+
+.sec-contato {
     background-color: white;
 }
-.lista-contatos--fundo{
+
+.lista-contatos--fundo {
     background-color: white;
 }
-.li-contatos img{
+
+.li-contatos img {
     height: 3rem;
     width: 3rem;
 }
-footer{
+
+footer {
     text-align: center;
     color: grey;
+}
+
+
+/* VIDEO */
+/* .carousel-inner {
+    overflow: hidden;
+} */
+
+/* .carousel-item {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+} */
+
+/* .carousel-item.active {
+    opacity: 1;
+    z-index: 2;
+} */
+
+.video {
+    display: block;
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    /* p ajustar o vídeo*/
 }
